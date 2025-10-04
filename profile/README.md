@@ -20,7 +20,7 @@ actually be simpler then the original...
 ## Table of Contents
 
 1. [cs100 | Introduction to the Profession](#cs100--introduction-to-the-profession)
-2. [cs115 | Object Oriented Programming I](#cs115--object-oriented-programming-i)
+2. [cs115 | Object Oriented Programming I](#cs115--object-oriented-programming-i) > [link to repo](https://github.com/REUNI-Projects/cs115)
 3. [cs116 | Object Oriented Programming II](#cs116--object-oriented-programming-ii)
 4. [cs330 | Discrete Structures](#cs330--discrete-structures)
 5. [cs331 | Data Structures and Algorithms](#cs331--data-structures-and-algorithms)
@@ -75,25 +75,29 @@ Basic College Finance Calculator
 
 ## cs115 | Object Oriented Programming I
 
-**Course Summary:**
+### Course Summary:
 
-CS115 was the first real programming course we had to take. We learn about common programming 
-practices, java syntax, how object oriented programming works, and basic things like variable
-types and basic loops and such.
+CS115 was the first real programming course I took in university. It covered the basics of object 
+oriented programming, java, and common programming practices. This course did not include 
+recursion, exception handling, or File I/O iirc.
 
-**Original Project:** 
+### Original Project:
 
-The course project we had was a dice game where you roll 2 die and try to eliminate all the 
-numbers 1 to 12. The ui was in the java terminal. 2 dies were rolled and you get 2 numbers, you 
-can either sum the numbers and eliminate that number or to eliminate the 2 individual numbers. You 
-lose if neither option is availabe or you will after elimiating all 12 numbers. For the remake, I 
-wanted to make the real game that this project seemed to be based on, *Shut the Box*.
+A dice game where you roll 2 die and try to eliminate all the numbers 1 to 12. The ui was just 
+text in the terminal. You can either eliminate the sum of the 2 numbers rolled by the 2 dice or 
+eliminate the 2 individual numbers. You lose if neither option is availabe or you win after 
+elimiating all the numbers. 
 
-**Remake Project Idea:**
+### Remake Project Idea: 
 
-Shut the Box
+I think the original was based on *Shut the box*, and I want to make that. I stuck to just the 
+terminal for the ui but made it look better then just minimul text. The rules will be based on the 
+actual game but with expanded modes and a score board. I might add ai bots to play this but it 
+would be a seperate project maybe in cs480 or cs587. I stuck with mostly the basics covered in 
+cs115 but also some stuff from cs116 and stuff that were not covered at all like the `.stream` 
+stuff.
 
-&nbsp;
+[link to cs115 repo](https://github.com/REUNI-Projects/cs115)
 
 [Table of Contents](#table-of-contents)
 
